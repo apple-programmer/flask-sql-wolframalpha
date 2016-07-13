@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<h1>{{ message }}</h1>
+	<form method="POST" action="/login">
+		<div align="center">
+			<h1>Enter username and password</h1><br>
+			<input type="text" name="username" placeholder="username" /> <br>
+			<input type="password" name="password" placeholder="password" /> <br>
+			<input type="submit" value="Login"/> <br>
+			{% if incorrect %}
+				<font color="FF0000">Invalid credentials</font>
+			{% endif %}
+			<h4>Or <a href="/register">register</a></h4>
+		</div>
+	</form>
+</body>
+</html>

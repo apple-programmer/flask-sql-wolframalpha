@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<div align="center">
+		<form method="post">
+			Login: <br>
+			<input type="text" name="username"> <br>
+			Password: <br>
+			<input type="password" name="password"> <br>
+			Repeat password: <br>
+			<input type="password" name="repeat"> <br>
+			Name: <br>
+			<input type="text" name="name"> <br>
+			<input type="Submit" value="register">
+			{% if passdiff %}
+			<br>
+			<font color="FF0000">Passwords differ</font>
+			<br>
+			{% endif %}
+			{% if logintaken %}
+			<br>
+			<font color="FF0000">Login is already taken</font>
+			<br>
+			{% endif %}
+			{% if invlogin %}
+			<br>
+			<font color="FF0000">Invalid login</font>
+			<br>
+			{% endif %}
+		</form>
+	</div>
+</body>
+</html>

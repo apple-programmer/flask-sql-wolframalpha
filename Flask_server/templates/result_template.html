@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Result of calculation</title>
+</head>
+<body>
+	<div align="center">
+		{% for pod in pods %}
+			{% if pod.error == "false" %}
+				<!--<p>{{ pod.error }}</p>-->
+				<pre style="word-wrap:break-word">{{ pod.title }}</pre>
+				<img src="{{pod.img}}" />
+				<!--<pre style="word-wrap:break-word">{{ pod.text }}</pre>-->
+			{% endif %}
+		{% endfor %}
+	</div>
+</body>
+</html>

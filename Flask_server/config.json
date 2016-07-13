@@ -1,0 +1,7 @@
+{
+	"host" : "0.0.0.0",
+	"port" : 9090,
+	"key" : "eK__Q+O@%qy&nU8!2)81v)Vudz&8EMw,zZiazuHEo7cGwx$@n0",
+	"SQLALCHEMY_DATABASE_URI" : "sqlite:///test.db",
+	"SQLALCHEMY_TRACK_MODIFICATIONS" : false
+}

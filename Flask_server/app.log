@@ -1,0 +1,1 @@
+('admin', {'ip': '::1', 'password': 'passs', 'name': 'Admin Name'})('admin', {'ip': '::1', 'password': 'passs', 'name': 'Admin Name'})('admin', {'ip': '::1', 'password': 'passs', 'name': 'Admin Name'})('admin', {'name': 'Admin Name', 'password': 'passs', 'ip': '::1'})('admin', {'name': 'Admin Name', 'ip': '::1', 'password': 'passs'})
